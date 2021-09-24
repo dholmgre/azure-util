@@ -1,0 +1,1 @@
+az deployment group create --resource-group rg-databricks-lab --template-file template_datalake.json --parameters parameters.json

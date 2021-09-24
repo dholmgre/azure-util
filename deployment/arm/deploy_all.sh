@@ -1,0 +1,3 @@
+az deployment group create --resource-group rg-databricks-lab --template-file adf/template_adf.json --parameters parameters.json
+az deployment group create --resource-group rg-databricks-lab --template-file databricks/template_databricks_ws.json --parameters parameters.json
+az deployment group create --resource-group rg-databricks-lab --template-file datalakegen2/template_datalake.json --parameters parameters.json
